@@ -51,3 +51,13 @@ section {
   flex-direction: column;
   justify-content: center;
 }
+section {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 3em;
+}
+.exhibit{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
