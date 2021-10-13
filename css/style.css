@@ -1,5 +1,5 @@
 body {
-  background-color: #405381;
+  background-color: #DEDEDE;
 }
 img {
   width: 100%;
@@ -38,6 +38,7 @@ nav {
   font-size: 200%;
   color: #FFF;
   font-weight: bold;
+  font-family: 'Open Sans Condensed', sans-serif;
   background-color: rgba(0,0,0,0.4);
   padding: 2em;
 }
@@ -45,19 +46,17 @@ section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 2em;
+  border-bottom: 2px solid #FFF;
+  padding-bottom: 1em;
 }
 .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-section {
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-gap: 3em;
-}
 .exhibit{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  padding-top: 1em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2em;
 }
