@@ -10,13 +10,13 @@ nav {
   padding: 1em 2em;
   display: flex;
   justify-content: space-between;
-  color: #CCC;
+  color: #CC5500;
 }
 .title {
 
 }
 .links a {
-  color: #CCC;
+  color: #CC5500;
   transition: color .3s ease-in-out;
 }
 .links a:hover {
@@ -36,17 +36,17 @@ nav {
 .splash blockquote {
   text-align: center;
   font-size: 200%;
-  color: #FFF;
+  color: #DEDEDE;
   font-weight: bold;
-  font-family: 'Open Sans Condensed', sans-serif;
   background-color: rgba(0,0,0,0.4);
   padding: 2em;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 2em;
-  border-bottom: 2px solid #FFF;
+  border-bottom: 2px solid #152238;
   padding-bottom: 1em;
 }
 .container {
@@ -59,4 +59,7 @@ section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 2em;
+}
+.container p {
+  color: #23395D
 }
