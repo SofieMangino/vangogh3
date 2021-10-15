@@ -46,7 +46,7 @@ section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 2em;
-  border-bottom: 2px solid #152238;
+  border-bottom: 2px solid #CC5500;
   padding-bottom: 1em;
 }
 .container {
@@ -62,4 +62,7 @@ section {
 }
 .container p {
   color: #23395D
+}
+ footer {
+  color: #CC5500
 }
